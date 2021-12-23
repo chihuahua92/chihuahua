@@ -175,6 +175,37 @@ border: 1px solid #eee;
 padding: 10px;
 margin-right: 10px;
 }
+
+.zaki-img {
+  position:relative;
+  width:500px;
+  height:400px;
+  z-index:1;
+}
+
+.title{
+   -webkit-user-select:none;
+  display:inline-block;
+  position:absolute;
+  z-index:2;
+  color: #000;
+  text-shadow: 3px 3px 3px #fff;  
+  font-size:70px;
+  margin:0 120px;
+  font-family:Arial;
+}
+
+.number{
+  -webkit-user-select:none;
+  display:inline-block;
+  position:absolute;
+  color: #000;
+  text-shadow: 3px 1px 1px #fff;  
+  font-size:50px;
+  z-index:2;
+  margin:0 auto;
+  font-family:Arial;
+}
 			/* TYPOGRAPHY */
 blockquote {
 font-weight : bold;
