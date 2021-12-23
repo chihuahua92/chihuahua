@@ -12,8 +12,7 @@ function createCookie(){
   var num = Number(numberElement.textContent);
   //create cookie
   document.cookie = popCount+'|'+num;
- 
- }
+ };
 
 img.addEventListener("mousedown", e => {
   playAudio();
@@ -24,8 +23,9 @@ img.addEventListener("mousedown", e => {
 });
 
 img.addEventListener("mouseup", e => {
- setTimeout(function(){ $("#zaki").attr("src","https://upload.cc/i1/2021/12/22/AIjBoF.jpg");
- },100);
+ setTimeout(function(){
+    $("#zaki").attr("src","https://upload.cc/i1/2021/12/22/AIjBoF.jpg");
+      },100);
 }); 
 
 
