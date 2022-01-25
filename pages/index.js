@@ -16,7 +16,7 @@ function redirect(){
     let rootRe = new RegExp(root);
     let targetPath = window.location.href.replace(rootRe, '').replace("/#!", '').replace('/', '');
     if (targetPath == ""){
-        main.innerHTML = "<div class="zakiOrigin"><img src='https://upload.cc/i1/2021/12/27/QIn307.jpg' class='zakiImage'></div>";
+        main.innerHTML = "";
     }else if(targetPath == "linebot"){
         main.innerHTML = linebot;
     }else if(targetPath == "todolist"){
