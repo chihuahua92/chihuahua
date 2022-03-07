@@ -254,9 +254,6 @@ a{
 
 }
 
-.brand h1{
-	font-family:"Sofia", sans-serif;
-}
 
 .navbar .nav{
 	float: right;
@@ -596,6 +593,10 @@ a{
 	color: #5a26f;
 	overflow: hidden;
 	text-overflow: ellipsis;
+}
+
+.brand h1{
+	font-family:"Sofia", sans-serif;
 }
 
 
