@@ -1,43 +1,160 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="zh-TW">
 <head>
-<title>Anneong Emily</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link href="style.css" rel="stylesheet" type="text/css" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Emily's Profile</title>
 </head>
 <body>
-<div id="container">
-  <div id="top">
-    <h1>Hello Emily</h1>
-  </div>
-  <div class="container">
-    <ul id="navPyra">
-      <li><a href="#">Home</a></li>
-      <li><a class="active" href="#">About</a></li>
-    </ul>
-  </div>
-  <div id="banner"></div>
-  <div id="side-menu">
-    <div id="navcontainer">
-      <h2>Links</h2>
-      <ul id="navlist">
-        <li><a href="https://upload.cc/i1/2021/12/09/c0AOyd.png" target="_blank">LINE BOT</a></li>
-        <li><a href="https://codepen.io/CHIHWA/full/abVqWQY" target="_blank">RWD-Rimoo Cafe</a></li>
-        <li><a href="https://codepen.io/CHIHWA/full/rNGpVLN" target="_blank">JavaScript-Simple TodoList</a></li>
-         <li><a href="https://codepen.io/CHIHWA/full/GGOmpx" target="_blank">RWD-Filter</a></li>
-      </ul>
-    </div>
-    <h2>More info</h2>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
-  </div>
-       <div id="main"> 
-          
+	<div class="wrapper">
+		<header class="header">
+			<div class="navbar">
+				<div class="container">
+					<a href="#" class="brand">
+						<h1>Hello Emily</h1>
+					</a>
+					<ul id="popup-menu" class="nav">
+						<li class="nav-item">
+							<a href="#about" class="nav-link">About</a>
+						</li>
+						<li class="nav-item">
+							
+						</li>
+						<li class="nav-item">
+							<a href="#services" class="nav-link">Side Project</a>
+						</li>
+						<li class="nav-item">
+							<a href="#reservation" class="nav-link">Experience</a>
+						</li>
+						<a href="#!" class="close-btn">
+							<span></span>
+							<span></span>
+						</a>		
+					</ul>
+					<a href="#popup-menu" class="menu-toggle">
+						<span></span>
+						<span></span>
+						<span></span>
+					</a>
+				</div>
+					
+			</div>
+		</header>
 
-       </div>
-  <div id="footer"> <a href="#">homepage</a> | <a href="mailto:denise@mitchinson.net">contact</a> | <a href="http://validator.w3.org/check?uri=referer">html</a> | <a href="http://jigsaw.w3.org/css-validator">css</a> | &copy; 2007 Anyone | Design by <a href="http://www.mitchinson.net"> www.mitchinson.net</a><br/>
-    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a> </div>
-</div>
-  	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
-  <script type="module" src="pages/index.js"></script>
+
+		<section class="main">
+			<!-- jumbotron start-->
+			<div class="jumbotron" style="background-image: url('https://upload.cc/i1/2022/03/03/xiEaXI.png')">
+				<div class="mask"></div>
+				<!-- <div class="container">					
+				</div> -->
+			</div>
+			<!-- jumbotron end -->
+
+			<!-- about start -->
+				<div id="about" class="hero hero-bg-white">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-6 col-md-12">
+								<div class="about-preview">
+									<h1 class="title">關於蘇治華這個人</h1>
+								<p class="desc">也可以叫我Emily。本人長相比這隻尤達寶寶稍微醜一點。標準的文科生，個性內向害羞外加一點點靦腆。從小對語言學習有興趣，大學選擇念韓文系，能力大概就是可以跟韓國人溝通的程度。接連做了兩份22K血汗工作後面臨轉職困境，因為聽工程師朋友說IT工作機會多待遇也很好，於是心一橫砸錢去資策會學寫程式，但朋友沒跟我說軟體資訊這條路是條不歸路，而且坑還很大，況且程式語言跟溝通語言有很大的差別......</p>
+								<a href="https://www.facebook.com/profile.php?id=100023375783184" class="btn btn-primary">瞭解更多</a>
+								</div>
+							</div>
+
+							<div class="col-lg-6 col-md-12">
+								<div class="image-container">
+									<div class="image profile" style="background-image: url('https://upload.cc/i1/2022/03/03/yzbPUI.png');"></div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			<!-- about end -->
+			<!-- services start -->
+				<div id="services" class="hero hero-bg-grey">
+					<div class="container">
+						<div class="section-intro">
+							<h2 class="title">Side Project</h2>
+							<p class="desc">在閒暇時間製作的小玩具，沒什麼特別厲害的東西，只是想用自己掌握的技術實現腦子裡天馬行空的想法，還在慢慢擴充中......</p>
+						</div>
+						<div class="row">
+							<div class="col-lg-4 col-md-6 col-sm-12">
+								<div class="service-item">
+									<div class="image-container">
+										<div class="image" style="background-image:url('https://upload.cc/i1/2022/03/03/o7qxFv.png');"></div>
+									</div>
+									<div class="preview">
+										<h4 class="title">不要放棄治療</h4>
+										<h5 class="subtitle">結合爬蟲功能的LineBot帳號</h5>
+										
+										<p class="desc">利用Google App Script結合Line Messaging API開發的爬蟲機器人。以Node.js撰寫，把Google試算表做為資料庫將爬回來的資料儲存在裡面。目前可爬台銀匯率及聯合新聞網即時新聞，點擊下方按鈕掃描QR Code即可體驗。</p>
+										
+										<a href="https://upload.cc/i1/2021/12/09/c0AOyd.png" class="btn btn-secondary" target="_blank">See more</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12">
+								<div class="service-item">
+									<div class="image-container">
+										<div class="image" style="background-image:url('https://upload.cc/i1/2022/03/07/t2BaiH.png');"></div>
+									</div>
+									<div class="preview">
+										<h4 class="title">POPZAKI</h4>
+										<h5 class="subtitle">模仿POPCAT的點擊計數器</h5>
+										
+										<p class="desc">以JavaScript開發，點擊記錄儲存在localstorage裡，照片使用我家老貓的醜照，點擊時會有啵啵啵的音效喔！因應最近的烏俄戰爭，使用烏克蘭國旗顏色作為背景為烏克蘭應援，No more wars plz。</p>
+										<a href="https://codepen.io/CHIHWA/full/JjrygqW" class="btn btn-secondary">See more</a>
+										
+									</div>
+
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12">
+								<div class="service-item">
+									<div class="image-container">
+										<div class="image" style="background-image:url('https://upload.cc/i1/2022/03/03/bv8x2e.png');"></div>
+									</div>
+									<div class="preview">
+										<h4 class="title">Simple Memo</h4>
+										<h5 class="subtitle">備忘錄</h5>
+										<p class="desc">以JavaScript開發，具增刪功能的備忘錄，新增的todolist儲存在localstorage裡，介面簡潔時尚。</p>
+										<a href="https://codepen.io/CHIHWA/full/rNGpVLN" target="_blank"class="btn btn-secondary">See more</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<!-- services end -->
+
+			<!-- experience start -->
+			  <div id="reservation" class="hero reservation">
+			  	<div class="mask"></div>
+			  	<div class="container">
+			  		<div class="section-intro">
+			  			<h2 class="title">Experience</h2>
+			  			<ul>
+			  				<li>2020.01-2021.12 昕力資訊-工程師</li>
+			  				<li>2019.06-2019.11 資策會-JAVA跨平台程式設計養成班</li>
+			  				<li>2018.07-2019.06 天仁茶業-門市人員</li>
+			  				<li>2015.08-2017.12 Trinity語言中心-教務</li>
+			  				<li>2015.06 文化大學韓文系畢業</li>
+			  			</ul>
+			  		</div>
+			  		
+			  	</div>
+			  </div>
+			<!-- experience end -->
+
+		</section>
+	</div>
+	
 </body>
 </html>
