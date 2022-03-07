@@ -254,6 +254,10 @@ a{
 
 }
 
+.brand h1{
+	font-family:"Sofia", sans-serif;
+}
+
 .navbar .nav{
 	float: right;
 }
